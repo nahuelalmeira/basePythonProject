@@ -1,0 +1,10 @@
+[flake8]
+# F401 imported but unused
+# F403 from module import *
+exclude =
+    .git,
+    __pycache__
+per-file-ignores =
+    # imported but unused
+    __init__.py: F401,F403
+    notebook_config.py: F401,F403

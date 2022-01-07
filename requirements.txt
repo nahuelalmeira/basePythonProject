@@ -1,0 +1,11 @@
+pytest
+flake8
+mypy
+black
+isort
+pandas
+pandas-stubs
+seaborn
+jupyter
+jupyterlab
+tqdm
